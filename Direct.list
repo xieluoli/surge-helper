@@ -1,3 +1,6 @@
+GEOIP,LAN
+GEOIP,CN
+
 # Direct
 DOMAIN,api.cloudflare.com
 
