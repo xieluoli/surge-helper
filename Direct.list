@@ -1,2 +1,54 @@
 # Direct
 DOMAIN,api.cloudflare.com
+
+# China Apps
+USER-AGENT,MicroMessenger Client
+USER-AGENT,WeChat*
+USER-AGENT,MApi* // Dianping
+
+
+# Ali
+DOMAIN-KEYWORD,alipay
+DOMAIN-KEYWORD,taobao
+DOMAIN-KEYWORD,alicdn
+DOMAIN-KEYWORD,aliyun
+DOMAIN-KEYWORD,.tmall.
+IP-CIDR,198.11.188.0/25,no-resolve
+IP-CIDR,198.11.136.0/24,no-resolve
+USER-AGENT,%E6%89%8B%E6%9C%BA%E6%B7%98%E5%AE%9D*
+DOMAIN,dingtalk.com
+
+# China
+DOMAIN-SUFFIX,CN
+DOMAIN-KEYWORD,baidu
+DOMAIN,xp.apple.com
+
+# Tencent
+DOMAIN,qq.com
+
+# CommonProcess
+PROCESS-NAME,v2ray
+PROCESS-NAME,Surge
+PROCESS-NAME,ss-local
+PROCESS-NAME,privoxy
+PROCESS-NAME,trojan
+PROCESS-NAME,trojan-go
+PROCESS-NAME,naive
+PROCESS-NAME,CloudflareWARP
+PROCESS-NAME,Cloudflare WARP
+IP-CIDR,162.159.193.0/24,no-resolve
+PROCESS-NAME,p4pclient
+PROCESS-NAME,Thunder
+PROCESS-NAME,DownloadService
+PROCESS-NAME,qbittorrent
+PROCESS-NAME,Transmission
+PROCESS-NAME,fdm
+PROCESS-NAME,aria2c
+PROCESS-NAME,Folx
+PROCESS-NAME,NetTransport
+PROCESS-NAME,uTorrent
+PROCESS-NAME,WebTorrent
+PROCESS-NAME,WeChat
+PROCESS-NAME,WeCom
+PROCESS-NAME,wpscloudsvr
+PROCESS-NAME，DingTalk
